@@ -33,7 +33,7 @@ problem = 'adr'
 
 On the domain $Omega=(0,1)\times(0,1)$, 
 
-$\vec{\beta}$
+$\mu\Delta u + \vec{\beta}\cdot\nabla u=0$
 
 
 Inside of driver.py, you can modify the weights on the different terms of the loss function 
