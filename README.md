@@ -29,7 +29,7 @@ $u(x,y) = e^{x+y} \text{ on } \partial\Omega$
 
 You can choose the number of interpolation points where the losses are computed. 
 
-$\textbf{Describe which losses are computed on which points}$
+**To Do: Describe which losses are computed on which points**
 
 -------------
 
