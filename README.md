@@ -27,6 +27,14 @@ $-\Delta u + u^3 = e^{3(x+y)}-2e^{x+y} \text{ on }\Omega$
 
 $u(x,y) = e^{x+y} \text{ on } \partial\Omega$
 
+-------------
+
+problem = 'adr'
+
+On the domain $Omega=(0,1)\times(0,1)$, 
+
+$\vec{beta}$
+
 
 Inside of driver.py, you can modify the weights on the different terms of the loss function 
 
