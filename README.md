@@ -24,6 +24,7 @@ problem = 'nonlinear'
 On the domain $\Omega=(-1,1)\times(-1,1)$,
 
 $-\Delta u + u^3 = e^{3(x+y)}-2e^{x+y} \text{ on }\Omega$
+
 $u(x,y) = e^{x+y} \text{ on } \partial\Omega$
 
 
