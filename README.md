@@ -10,6 +10,13 @@ Change "problem" variable to the problem you would like to solve.
 
 problem = 'discontinuous'
 
+data_source = {0,1,2}
+- data_source = 0 (samples noisy true solution to simulate real data)
+- data_source = 1 (samples the finite element solution)
+  - This is implemented for the discontinuous case and the stabilized advection diffusion case
+- data_source = 2 (samples no data and just uses the equations to solve the PDE as a forward problem)
+
+
 On the domain $\Omega=(-1,1)\times(-1,1)$, 
 
 $-\Delta u = -2(x<y) \text{ on } \Omega$
