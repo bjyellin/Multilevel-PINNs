@@ -27,6 +27,10 @@ $-\Delta u + u^3 = e^{3(x+y)}-2e^{x+y} \text{ on }\Omega$
 
 $u(x,y) = e^{x+y} \text{ on } \partial\Omega$
 
+You can choose the number of interpolation points where the losses are computed. 
+
+$\textbf{Describe which losses are computed on which points}$
+
 -------------
 
 The following problems are implemented for the randomly initialized code: 
