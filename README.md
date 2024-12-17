@@ -37,17 +37,17 @@ problem = 'nonlinear'
 
 problem = 'adr'
 
-On the domain $\Omega=(0,1)\times(0,1)$ let $\Gamma$ denote the boundary. 
-
-$\mu\Delta u + \vec{\beta}\cdot\nabla u=0$
-
-$u(x,y)=0 \text{ on } \Gamma_{left}$
-
-$u(x,y)=0 \text{ on } \Gamma_{bottom}$
-
-$u(x,y)=1 \text{ on } \Gamma_{top}$
-
-$u(x,y)=1 \text{ on } \Gamma_{right}$
+  On the domain $\Omega=(0,1)\times(0,1)$ let $\Gamma$ denote the boundary. 
+  
+  $\mu\Delta u + \vec{\beta}\cdot\nabla u=0$
+  
+  $u(x,y)=0 \text{ on } \Gamma_{left}$
+  
+  $u(x,y)=0 \text{ on } \Gamma_{bottom}$
+  
+  $u(x,y)=1 \text{ on } \Gamma_{top}$
+  
+  $u(x,y)=1 \text{ on } \Gamma_{right}$
 
 Inside of driver.py, you can modify the weights on the different terms of the loss function 
 
