@@ -6,7 +6,7 @@ How to run these files:
 The following problems are implemented for the multilevel code: 
 
 To run multilevel code: 
-Run python3 driver.py.
+To run this code and control the parameters used for training, modify the "driver.py" file. 
 Change "problem" variable to the problem you would like to solve.
 
 problem = 'discontinuous'
@@ -29,11 +29,14 @@ $u(x,y) = e^{x+y} \text{ on } \partial\Omega$
 
 You can choose the number of interpolation points where the losses are computed. 
 
+
 **To Do: Describe which losses are computed on which points**
 
 -------------
 
 The following problems are implemented for the randomly initialized code: 
+
+To run this code and control the parameters used for training, modify the "random_driver.py" file. 
 
 problem = 'discontinuous'
 
