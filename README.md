@@ -5,7 +5,6 @@ How to run these files:
 
 The following problems are implemented for the multilevel code: 
 
-To run multilevel code: 
 To run this code and control the parameters used for training, modify the "driver.py" file. 
 Change "problem" variable to the problem you would like to solve.
 
