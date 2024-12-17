@@ -29,6 +29,12 @@ $u(x,y) = e^{x+y} \text{ on } \partial\Omega$
 
 -------------
 
+The following problems are implemented for the randomly initialized code: 
+
+problem = 'discontinuous'
+
+problem = 'nonlinear'
+
 problem = 'adr'
 
 On the domain $\Omega=(0,1)\times(0,1)$ let $\Gamma$ denote the boundary. 
