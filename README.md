@@ -10,11 +10,6 @@ Change "problem" variable to the problem you would like to solve.
 
 problem = 'discontinuous'
 
-data_source = {0,1,2}
-- data_source = 0 (samples noisy true solution to simulate real data)
-- data_source = 1 (samples the finite element solution)
-  - This is implemented for the discontinuous case and the stabilized advection diffusion case
-- data_source = 2 (samples no data and just uses the equations to solve the PDE as a forward problem)
 
 
 On the domain $\Omega=(-1,1)\times(-1,1)$, 
@@ -64,5 +59,12 @@ problem = 'adr'
 
 Inside of driver.py, you can modify the weights on the different terms of the loss function 
 
+To change the source of data for training, modify the data_source variable. 
+
+data_source = {0,1,2}
+- data_source = 0 (samples noisy true solution to simulate real data)
+- data_source = 1 (samples the finite element solution)
+  - This is implemented for the discontinuous case and the stabilized advection diffusion case
+- data_source = 2 (samples no data and just uses the equations to solve the PDE as a forward problem)
 
 
