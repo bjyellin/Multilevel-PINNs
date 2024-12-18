@@ -57,6 +57,9 @@ problem = 'adr'
   
   $u(x,y)=1 \text{ on } \Gamma_{right}$
 
+
+When running problem = 'adr', the finite element solution is sampled as data, so set the 
+
 Inside of driver.py, you can modify the weights on the different terms of the loss function 
 
 To change the source of data for training, modify the data_source variable. 
